@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 80px;
+}
+h1 {
+    font-size: 40px;
+    margin: 20px 200px 10px 100px;   
+}
+h2{
+    color:white;
+    font-size: 60px;
+    position: relative;
+    top: 200px;
+    left: 400px;
+}
+a {
+    padding: 20px;
+    font-size: 16px;
+    margin: 15px;
+}
+button{
+    position: relative;
+    top: 200px;
+    left: 600px;
+    background-color: cadetblue;
+    font-size: 20px;
+    font-family: Arial;
+    border:none;
+    color: white;
+    padding: 15px 40px;
+    margin: 20px;
+}
+.plane{
+    background-image:url(images/samolot.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 620px;
+    width: 100vw;
+    overflow: hidden;
+}
+.white {
+    background-color: white;
+    height: 620px;
+    width: 100vw;
+}
+
+.mountains {
+    background-image: url(images/g%C3%B3ry.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 620px;
+    width: 100vw;
+    overflow: hidden;    
+}
